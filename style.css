@@ -20,8 +20,31 @@ main {
   width: 675px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+#input-name {
+  flex-basis: 45%;
+  order: 1;
+}
+
+#input-lastname {
+  flex-basis: 45%;
+  order: 3;
+}
+
+#input-email {
+  flex-basis: 45%;
+  order: 2;
+}
+
+#house {
+  flex-basis: 45%;
+  order: 4;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
+
