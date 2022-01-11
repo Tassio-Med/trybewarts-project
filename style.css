@@ -26,22 +26,22 @@ main {
 
 #input-name {
   flex-basis: 45%;
-  order: 1;
+  order: -4;
 }
 
 #input-lastname {
   flex-basis: 45%;
-  order: 3;
+  order: -2;
 }
 
 #input-email {
   flex-basis: 45%;
-  order: 2;
+  order: -3;
 }
 
 #house {
   flex-basis: 45%;
-  order: 4;
+  order: -1;
 }
 
 #trybewarts-forms-logo {
