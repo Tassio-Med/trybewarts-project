@@ -11,3 +11,12 @@ header {
 #trybewarts-header-title {
   align-self: center;
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  width: 675px;
+  display: flex;
+}
