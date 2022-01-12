@@ -23,28 +23,46 @@ main {
   flex-wrap: wrap;
 }
 
+#evaluation-form div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 
 #input-name {
   flex-basis: 45%;
-  order: -4;
+  /* order: -4; */
 }
 
 #input-lastname {
   flex-basis: 45%;
-  order: -2;
+  /* order: -2; */
 }
 
 #input-email {
   flex-basis: 45%;
-  order: -3;
+  /* order: -3; */
 }
 
 #house {
   flex-basis: 45%;
-  order: -1;
+  /* order: -1; */
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
 
+section {
+  display: flex;
+}
+
+.div01 {
+  display: flex;
+  flex-direction: column;
+}
+
+.div02 {
+  display: flex;
+  flex-direction: column;
+}
