@@ -50,17 +50,23 @@ header img {
 main {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 #evaluation-form {
   width: 675px;
   display: flex;
   flex-direction: column;
-  padding: 0 70px;
+  padding: 0 50px;
 }
 
-#evaluation-form div {
+#evaluation-form > p {
+  text-align: center;
+  font-size: 24pt;
+  margin-bottom: 30px;
+}
+
+#evaluation-form > div {
   display: flex;
   flex-wrap: wrap;
 }
@@ -69,7 +75,7 @@ main {
   padding: 15px 10px;
   border-radius: 5px;
   border: none;
-  margin: 0 3px 25px;
+  margin: 0 3px 15px;
   flex: 1;
 }
 
@@ -100,5 +106,45 @@ section {
 }
 
 hr {
-  margin: 20px 0;
+  margin: 10px 0;
+}
+
+.div01 {
+  justify-content: space-between;
+}
+
+.div01 > * {
+  margin-bottom: 10px;
+}
+
+.div02 * {
+  margin-bottom: 10px;
+}
+
+.checks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.checks > * {
+  width: 30%;
+}
+
+.radios {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.textarea {
+  margin-bottom: 5px;
+}
+
+textarea {
+  border-radius: 5px;
+  border: 1px solid rgb(93, 68, 133);
+}
+
+#label-infos {
+  margin: 10px 0;
 }
