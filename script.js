@@ -11,3 +11,18 @@ function validarLogin() {
 }
 
 btnLogin.addEventListener('click', validarLogin);
+
+const btn = document.querySelector('#submit-btn');
+btn.disabled = true;
+
+const checkBox = document.querySelector('#agreement');
+
+const checked = () => {
+  if (checkBox.checked === true) {
+    btn.disabled = false;
+  } else {
+    btn.disabled = true;
+  }
+};
+
+checkBox.addEventListener('click', checked);
