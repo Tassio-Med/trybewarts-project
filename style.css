@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Roboto:wght@300&display=swap');
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
+  font-family: Roboto, sans-serif;
   background-color: rgb(239, 239, 239);
 }
 
@@ -50,6 +53,7 @@ header img {
 main {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 30px;
 }
 
@@ -62,7 +66,8 @@ main {
 
 #evaluation-form > p {
   text-align: center;
-  font-size: 24pt;
+  font-size: 20pt;
+  font-weight: 600;
   margin-bottom: 30px;
 }
 
@@ -100,6 +105,14 @@ section {
   justify-content: space-between;
 }
 
+#label-family {
+  font-weight: 600;
+}
+
+#label-content {
+  font-weight: 600;
+}
+
 .section > * {
   display: flex;
   flex-direction: column;
@@ -130,6 +143,10 @@ hr {
   width: 30%;
 }
 
+#label-rate {
+  font-weight: 600;
+}
+
 .radios {
   justify-content: space-between;
   align-items: center;
@@ -137,7 +154,12 @@ hr {
 }
 
 .textarea {
+  font-weight: 600;
   margin-bottom: 5px;
+}
+
+.checkFinal {
+  align-items: center;
 }
 
 textarea {
@@ -146,5 +168,11 @@ textarea {
 }
 
 #label-infos {
+  font-weight: 600;
   margin: 10px 0;
+}
+
+#agreement {
+  margin-left: 10px;
+  align-self: center;
 }
