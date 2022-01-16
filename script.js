@@ -26,3 +26,10 @@ const checked = () => {
 };
 
 checkBox.addEventListener('click', checked);
+
+const contador = document.querySelector('#counter');
+const textoArea = document.querySelector('#textarea');
+
+textoArea.onkeyup = (event) => {
+  contador.innerHTML = 500 - event.target.value.length;
+};
